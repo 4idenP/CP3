@@ -33,9 +33,14 @@ To download the executable , go to this page : https://phantomjs.org/download.ht
 > git clone https://github.com/piksel/phantomjs-raspberrypi
 > ```
 
-Remember the path to the executable, you will need to write it in the variable ```PhantomJS_path``` at the top of the script, for example : 
+Remember the path to the executable! You will need to write it in the variable ```PhantomJS_path``` at the top of the script, for example : 
 ```py
 PhantomJS_path = "C:\\Users\\John\\Documents\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe"
 ```
 
-##
+## Lauching the script
+
+### Parameters
+
+Once all of the prerequisites are installed, you can launch the script to attempt connecting to the captive portal. The script take 2 required parameters which are ```email``` and ```password```.
+```sh ./CP3.py -l <email> -p <password>```
