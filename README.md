@@ -54,7 +54,7 @@ or
 ### Connecting to captive portal server
 
 The script will first try to contact the portal server through his url (```https://www.quantic-telecom.net/connexion-reseau```).
-Using requests module it will grab the HTML data of the page : 
+It will grab the HTML data of the page using ```requests``` module: 
 ```py
 requests.get(url, 'html.parser', allow_redirects=True)
 ```
