@@ -18,12 +18,11 @@ import argparse
 import time
 import os
 import ping3
-import sys
 from selenium import webdriver
 ```
 Those can be downloaded by running this command in the python console :
 ```
-pip install requests argparse time os ping3 sys selenium
+pip install requests argparse time os ping3 selenium
 ```
 
 ### PhantomJS executable
@@ -50,10 +49,33 @@ python3 CP3.py -l email -p password
 or
 ./CP3.py -l email -p password
 ```
-### Connecting to captive portal server
+## Connecting to captive portal server
 
 The script will first try to contact the portal server through his url (```https://www.quantic-telecom.net/connexion-reseau```).
 You will see this message if the operation is a success : 
 ```diff
-[-+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
+[+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
 ```
+### Common errors
+```diff
+[-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
+```
+This error will appear only if the url changed, don't hesitate to contact me in this case.
+
+```diff
+[-] Unable to connect to Captive Portal: You are already connected to internet!
+```
+This error will appear if you are already connected to internet through the Quantic's network.
+
+```diff
+[-] Connexion réseau impossible: You are not connected to Quantic Telecom's network.
+     Exiting program.
+```
+This error will appear if you are trying to connect to Quantic Telecom's network without being connected to their network.
+
+```diff
+[-] Connexion réseau impossible: Unable to access captive portal, network seems down.
+     Exiting program.
+```
+This error will appear if your computer isn't able to connect to the captive portal server. It should never happen.
+
