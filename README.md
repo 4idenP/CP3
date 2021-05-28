@@ -49,14 +49,41 @@ python3 CP3.py -l email -p password
 or
 ./CP3.py -l email -p password
 ```
-## Connecting to captive portal server
+## Connection processus steps
+
+### Connecting to captive portal server
 
 The script will first try to contact the portal server through his url (```https://www.quantic-telecom.net/connexion-reseau```).
+Using requests module it will grab the HTML data of the page : 
+```py
+requests.get(url, 'html.parser', allow_redirects=True)
+```
+
 You will see this message if the operation is a success : 
 ```diff
 [+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
 ```
-### Common errors
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Common errors
 ```diff
 [-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
 ```
