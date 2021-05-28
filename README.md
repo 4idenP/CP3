@@ -19,5 +19,5 @@ from selenium import webdriver
 ```
 Those can be downloaded by running this command :
 ```py
-sudo pip3 install requests argparse time os ping3 sys selenium
+pip3 install requests argparse time os ping3 sys selenium
 ```
