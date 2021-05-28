@@ -23,7 +23,7 @@ pip install requests argparse time os ping3 sys selenium
 ```
 You will also need ```PhantomJS``` to execute the js script which will allow us to connect to the captive portal.
 To download the executable , go to this page : https://phantomjs.org/download.html and download the proper executable according to your exploitation system.
-> Note : PhantomJS isn't working on raspberry pi, you will need to get an adapted version of the folder on this link : https://github.com/piksel/phantomjs-raspberrypi
+> Note : PhantomJS isn't working on raspberry pi, you will need to get an adapted version of the software on this repository :
 > ```sh 
 > git clone https://github.com/piksel/phantomjs-raspberrypi
 > ```
