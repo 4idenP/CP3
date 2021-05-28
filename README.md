@@ -21,3 +21,7 @@ Those can be downloaded by running this command in the python console :
 ```
 pip install requests argparse time os ping3 sys selenium
 ```
+You will also need ````PhantomJS``` to execute the js script which will allow us to connect to the captive portal.
+To download the executable , go to this page :
+> https://phantomjs.org/download.html
+And download the proper executable according to your exploitation system.
