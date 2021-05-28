@@ -17,7 +17,7 @@ import ping3
 import sys
 from selenium import webdriver
 ```
-Those can be downloaded by running this command :
-```sh
+Those can be downloaded by running this command in the python console :
+```
 pip install requests argparse time os ping3 sys selenium
 ```
