@@ -64,7 +64,16 @@ You will see this message if the operation is a success :
 [+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
 ```
 
-### 
+### Execute JavaScript to log
+
+Once ```PhantomJS``` connected to the webpage with his ```webdriver``` module, it will now execute a ```javascript``` script to inject the provided email and password into the form and submit them.
+```py
+driver.execute_script("document.getElementById('email').value=\'"+email+"\'")
+driver.execute_script("document.getElementById('password').value=\'"+password+"\'")
+driver.execute_script("document.getElementById('form-continue').click()")
+```
+Once it is done, the script will attempt pinging ```8.8.8.8``` (Google primary DNS server) in order to see if the internet connection is permitted and established.
+After 30 secondes of trying the program will prompt an error message and exit.
 
 
 
