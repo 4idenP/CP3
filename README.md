@@ -46,5 +46,12 @@ PhantomJS_path = "C:\\Users\\John\\Documents\\phantomjs-2.1.1-windows\\bin\\phan
 
 Once all of the prerequisites are installed, you can launch the script to attempt connecting to the captive portal. The script take 2 required parameters which are ```email``` and ```password```.
 ```sh
+python3 CP3.py -l email -p password
+or
 ./CP3.py -l email -p password
 ```
+### Connecting to captive portal server
+
+The script will first try to contact the portal server through his url (```https://www.quantic-telecom.net/connexion-reseau```).
+You will see this message if the operation is a success : 
+> [+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
