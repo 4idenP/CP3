@@ -93,6 +93,9 @@ After 30 secondes of trying the program will prompt an error message and exit.
 
 
 ## Common errors
+
+### Web portal connection fail
+
 ```diff
 [-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
 ```
@@ -114,4 +117,32 @@ This error will appear if you are trying to connect to Quantic Telecom's network
      Exiting program.
 ```
 This error will appear if your computer isn't able to connect to the captive portal server. It should never happen.
+
+### Credentials injection fail
+
+```diff
+[-] Email injection failed: This may be due to an invalid character.
+     Exiting program.
+```
+This error will appear if the script isn't able to inject the email adresse into the form. It shouldn't happen.
+
+```diff
+[-] Password injection failed: This may be due to an invalid character.
+     Exiting program.
+```
+This error will appear if the script isn't able to inject the password into the form. It shouldn't happen.
+
+```diff
+[-]  Submission failed: This may be due to an invalid element name in the js query.
+     Exiting program.
+```
+This error will appear if the script isn't able to submit your credentials to the portal. It shouldn't happen.
+
+### Authentification error
+
+```diff
+[-] Failed to connect: Unknown error.
+     Exiting program.
+```
+This error will appear if the script isn't able to connect with the given credentials. Try seeing if you didn't do any typing mistake.
 
