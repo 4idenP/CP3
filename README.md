@@ -3,6 +3,8 @@
 CP3 is a python script that provides connection to Quantic Telecom's Captive Portal without needing any graphic interface.
 It can be helpful espcially for raspberry pi users that connect through SSH to their pi or any other type of command-line interfaces.
 
+<img align="right" src=./res/logo.png height="150px">
+
 > The script is supported on both ```Windows``` and ```Linux``` distributions.
 
 ## Prerequisites
@@ -44,5 +46,5 @@ PhantomJS_path = "C:\\Users\\John\\Documents\\phantomjs-2.1.1-windows\\bin\\phan
 
 Once all of the prerequisites are installed, you can launch the script to attempt connecting to the captive portal. The script take 2 required parameters which are ```email``` and ```password```.
 ```sh
-./CP3.py -l <email> -p <password>
+./CP3.py -l email -p password
 ```
