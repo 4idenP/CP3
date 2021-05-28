@@ -18,6 +18,6 @@ import sys
 from selenium import webdriver
 ```
 Those can be downloaded by running this command :
-```py
+```sh
 pip install requests argparse time os ping3 sys selenium
 ```
