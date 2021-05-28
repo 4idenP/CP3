@@ -8,7 +8,7 @@ It can be helpful espcially for raspberry pi users that connect through SSH to t
 ## Prerequisites
 
 In order to work this script needs some python3 compatible modules :
-```
+```py
 import requests
 import argparse
 import time
