@@ -7,6 +7,8 @@ It can be helpful espcially for raspberry pi users that connect through SSH to t
 
 ## Prerequisites
 
+### Python modules
+
 In order to work this script needs some python3 compatible modules :
 ```py
 import requests
@@ -21,6 +23,8 @@ Those can be downloaded by running this command in the python console :
 ```
 pip install requests argparse time os ping3 sys selenium
 ```
+###PhantomJS executable
+
 You will also need ```PhantomJS``` to execute the js script which will allow us to connect to the captive portal.
 To download the executable , go to this page : https://phantomjs.org/download.html and download the proper executable according to your exploitation system.
 > Note : PhantomJS doesn't support Raspbian OS, you will need to get an adapted version of the software on this repository :
@@ -32,3 +36,5 @@ Remember the path to the executable, you will need to write it in the variable `
 ```py
 PhantomJS_path = "C:\\Users\\John\\Documents\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe"
 ```
+
+##
