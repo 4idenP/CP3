@@ -54,4 +54,6 @@ or
 
 The script will first try to contact the portal server through his url (```https://www.quantic-telecom.net/connexion-reseau```).
 You will see this message if the operation is a success : 
-> [+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
+```diff
+[-+] Connection established! (https://www.quantic-telecom.net/connexion-reseau) - Status : 200
+```
