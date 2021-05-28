@@ -43,4 +43,6 @@ PhantomJS_path = "C:\\Users\\John\\Documents\\phantomjs-2.1.1-windows\\bin\\phan
 ### Parameters
 
 Once all of the prerequisites are installed, you can launch the script to attempt connecting to the captive portal. The script take 2 required parameters which are ```email``` and ```password```.
-```sh ./CP3.py -l <email> -p <password>```
+```sh
+./CP3.py -l <email> -p <password>
+```
