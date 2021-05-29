@@ -79,10 +79,9 @@ After 30 secondes of trying the program will prompt an error message and exit.
 ## Common errors
 
 ### Web portal connection fail
-<span color="red">red</span>
 
-```html
-[-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
+```diff
+- [-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
 ```
 > This error will appear only if the url changed, don't hesitate to contact me in this case.
 
