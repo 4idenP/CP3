@@ -79,7 +79,7 @@ After 30 secondes of trying the program will prompt an error message and exit.
 ## Common errors
 
 ### Web portal connection fail
-<font color="red">This is some text!</font>
+<h3 style="color:#ff0000">Danger</h3>
 ```html
 [-] ERROR! Status code : 404 - "https://www.quantic-telecom.net/connexion-reseau"
 ```
