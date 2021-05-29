@@ -86,18 +86,18 @@ After 30 secondes of trying the program will prompt an error message and exit.
 > This error will appear only if the url changed, don't hesitate to contact me in this case.
 
 ```diff
-[-] Unable to connect to Captive Portal: You are already connected to internet!
+- Unable to connect to Captive Portal: You are already connected to internet!
 ```
 > This error will appear if you are already connected to internet through the Quantic's network.
 
 ```diff
-[-] Connexion réseau impossible: You are not connected to Quantic Telecom's network.
+- Connexion réseau impossible: You are not connected to Quantic Telecom's network.
      Exiting program.
 ```
 > This error will appear if you are trying to connect to Quantic Telecom's network without being connected to their network.
 
 ```diff
-[-] Connexion réseau impossible: Unable to access captive portal, network seems down.
+- Connexion réseau impossible: Unable to access captive portal, network seems down.
      Exiting program.
 ```
 > This error will appear if your computer isn't able to connect to the captive portal server. It should never happen.
@@ -105,19 +105,19 @@ After 30 secondes of trying the program will prompt an error message and exit.
 ### Credentials injection fail
 
 ```diff
-[-] Email injection failed: This may be due to an invalid character.
+- Email injection failed: This may be due to an invalid character.
      Exiting program.
 ```
 > This error will appear if the script isn't able to inject the email adresse into the form. It shouldn't happen.
 
 ```diff
-[-] Password injection failed: This may be due to an invalid character.
+- Password injection failed: This may be due to an invalid character.
      Exiting program.
 ```
 > This error will appear if the script isn't able to inject the password into the form. It shouldn't happen.
 
 ```diff
-[-]  Submission failed: This may be due to an invalid element name in the js query.
+-  Submission failed: This may be due to an invalid element name in the js query.
      Exiting program.
 ```
 > This error will appear if the script isn't able to submit your credentials to the portal. It shouldn't happen.
@@ -125,7 +125,7 @@ After 30 secondes of trying the program will prompt an error message and exit.
 ### Authentification error
 
 ```diff
-[-] Failed to connect: Unknown error.
+- Failed to connect: Unknown error.
      Exiting program.
 ```
 > This error will appear if the script isn't able to connect with the given credentials. Try seeing if you didn't do any typing mistake.
