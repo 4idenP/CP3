@@ -130,3 +130,7 @@ After 30 secondes of trying the program will prompt an error message and exit.
 ```
 > This error will appear if the script isn't able to connect with the given credentials. Try seeing if you didn't do any typing mistake.
 
+## Contributions
+
+If you're able you're pleased to contribute to this repository by adding your patches and corrections to my script.
+
