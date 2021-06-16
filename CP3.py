@@ -4,11 +4,7 @@
 # Nothing is stored on this computer after logging
 # Developped by 4idenP - © 2021
 
-import requests
-import argparse
-import time
-import os
-import ping3
+import requests, argparse, time, os, ping3
 from selenium import webdriver
 
 # DON'T FORGET TO FILL PhantomJS_path WITH THE PATH TO THE phantomjs EXECUTABLE!
