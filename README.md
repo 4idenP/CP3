@@ -13,11 +13,7 @@ It can be helpful espcially for raspberry pi users that connect through SSH to t
 
 In order to work this script needs some python3 compatible modules :
 ```py
-import requests
-import argparse
-import time
-import os
-import ping3
+import requests, argparse, time, os, ping3
 from selenium import webdriver
 ```
 Those can be downloaded by running this command in the python console :
