@@ -1,6 +1,3 @@
-```
-/!\ Note : Linux not supported yet (tested on Raspbian) /!\
-```
 # CP3 : Command-line captive portal connection
 
 CP3 is a python script that provides connection to Quantic Telecom's Captive Portal without needing any graphic interface.
@@ -9,6 +6,9 @@ It can be helpful espcially for raspberry pi users that connect through SSH to t
 <img align="right" src=https://user-images.githubusercontent.com/67024413/120048394-43d8e200-c017-11eb-959a-d8abe24b0795.png height="150px">
 
 > The script is supported on both ```Windows``` and ```Linux``` distributions.
+```
+/!\ Note : Linux not supported yet (tested on Raspbian) /!\
+```
 
 ## Prerequisites
 
