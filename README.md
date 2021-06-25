@@ -1,3 +1,6 @@
+```
+/!\ Note : Linux not supported yet (tested on Raspbian) /!\
+```
 # CP3 : Command-line captive portal connection
 
 CP3 is a python script that provides connection to Quantic Telecom's Captive Portal without needing any graphic interface.
