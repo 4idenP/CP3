@@ -8,10 +8,10 @@ It can be helpful espcially for raspberry pi users that connect through SSH to t
 > The script is supported on both ```Windows``` and ```Linux``` distributions.
 
 ## Dev notes
-
+```
 [+] Linux not supported yet due to errors caused by PhantomJS (Deprecated webdriver).
 Working on changing the webdriver for an adaptive webdriver.
-
+```
 ## Prerequisites
 
 ### Python modules
