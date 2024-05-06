@@ -1,4 +1,4 @@
-# CP3 : Command-line captive portal connection
+# CP3 : Command-line captive portal connection (Deprecated)
 
 CP3 is a python script that provides connection to Quantic Telecom's Captive Portal without needing any graphic interface.
 It can be helpful espcially for raspberry pi users that connect through SSH to their pi or any other type of command-line interfaces.
